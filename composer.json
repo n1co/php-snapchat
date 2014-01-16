@@ -1,0 +1,16 @@
+{
+    "name": "joshuaweaver/php-snapchat",
+    "description": "A PHP library for the Snapchat API",
+    "keywords": ["snapchat"],
+    "type": "library",
+    "license": "WTFPL",
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mcrypt": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
